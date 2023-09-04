@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color_picker.com</title>
+    <link rel="stylesheet" href="color_picker.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="pick_color" title="red"></div>
+        <div class="range">
+            <label for="red">R</label>
+            <input type="range" id="red" min="0" max="255" value="0" name="red">
+        </div>
+        <div class="range">
+            <label for="green">G</label>
+            <input type="range" id="green" min="0" max="255" value="0" name="green">
+        </div>
+        <div class="range">
+            <label for="blue">B</label>
+            <input type="range" id="blue" min="0" max="255" value="0" name="blue">
+        </div>
+                <span class="RGB">rgb(0,0,0)</span>
+        <button>copy</button>
+    </div>
+    <script src="color_picker.js"></script>
+</body>
+
+</html>
