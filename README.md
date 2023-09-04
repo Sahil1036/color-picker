@@ -1,2 +1,2 @@
 # Color picker
-<img scr="color_picker.png">
+<img src="main/color_picker.png" alt="image">
